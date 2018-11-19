@@ -16,19 +16,24 @@
 
         .background {
             background-image: url("assets/images/background_image.jpeg");
+            background-size: cover;
+            /* <------ */
+            background-repeat: no-repeat;
+            background-position: center center
         }
 
         .container {
             width: 60%;
             margin: 0 auto;
-            box-shadow: 0px 1px 1px #DBDBDB;
+            box-shadow: 0px 1px 1px #737373;
             background-color: white;
+            margin-bottom: 135px;
         }
 
         .topnav {
             background-color: white;
             overflow: hidden;
-            box-shadow: 0px 2px 1px #DBDBDB;
+            box-shadow: 0px 1px 1px #737373;
             margin-bottom: 30px;
             padding: 0px 0px 0px 0px;
         }
@@ -38,9 +43,11 @@
             float: left;
             color: #919191;
             text-align: center;
-            padding: 14px 16px;
+
             text-decoration: none;
             font-size: 17px;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
         }
 
         /* Change the color of links on hover */
@@ -56,7 +63,7 @@
             font-family: 'Times New Roman', Times, serif;
             font-weight: bold;
             font-size: 28px;
-    padding: 15px 33px 15px 33px;
+            padding: 15px 33px 15px 33px;
         }
 
         h1 {
@@ -94,6 +101,39 @@
             width: 96%;
             margin: 0 auto;
         }
+
+        a:not(:last-child) {
+            border-right: 1px solid #DBDBDB;
+        }
+
+        #about {
+            padding: 0px 12px 0px 0px;
+            margin: 20px 0px 0px 12px;
+        }
+
+        #portfolio {
+            padding: 0px 12px 0px 0px;
+            margin: 20px 0px 0px 12px;
+        }
+
+        #contact {
+            padding: 0px 0px 0px 0px;
+            margin: 20px 0px 0px 12px
+        }
+
+        footer {
+            background-color: #919191;
+
+            padding: 10px 0px 4px 0px;
+            text-align: center;
+            width: 100%;
+            font-size: 0.66666em;
+            color: darkgrey;
+            bottom: 0;
+            border-top-color: hsl(178, 67%, 40%);
+            border-top-width: 4px;
+            border-top-style: solid;
+        }
     </style>
 </head>
 
@@ -101,11 +141,11 @@
 
     <div class="topnav">
         <div class="nav-wrapper">
-            <a class="active" href="#home">Your Name</a>
+            <a class="active">Your Name</a>
             <div id="right-section">
-                <a href="#news">About</a>
-                <a href="#contact">Portfolio</a>
-                <a href="#about">Contact</a>
+                <a id="about">About</a>
+                <a id="portfolio">Portfolio</a>
+                <a id="contact">Contact</a>
             </div>
         </div>
     </div>
@@ -129,6 +169,10 @@
 
         </article>
     </div>
+
+    <footer>
+        Copyright ©
+    </footer>
 
 </body>
 
