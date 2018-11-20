@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+.background {
+            background-image: url("../../images/background_image.jpeg");
+        }
+
+.imgText{
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 35%;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 330px;
+    left: 1%;
+}
+
+.imgText3{
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 35%;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 735.547px;
+    left: 1%;
+}
+
+.imgText5{
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 35%;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 1141.094px;
+    left: 1%;
+}
+
+.imgText2{
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 35%;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 330px;
+    left: 38%;
+}
+
+.imgText4{
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 35%;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 735.547px;
+    left: 38%;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    position:relative;
+    height: 100%;
+    box-shadow: 0px 1px 1px #dddddd;
+    background-color: white;
+}
+
+.container2{
+    position: relative;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 1px 1px #cccccc;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #919191;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 15px 33px 15px 33px;
+}
+
+h1 {
+    border-bottom: inset 2px #DBDBDB;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 22px;
+    padding: 20px 0px 15px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#right-section {
+    float: right;
+}
+
+.resize{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 1%;
+    position: relative;
+}
+
+p {
+    line-height: 28px;
+    margin: 10px;
+}
+
+p.formP{
+    margin-bottom: 3px;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 0;
+    color: #919191;
+}
+
+.nav-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.article-wrapper {
+    width: 96%;
+    margin: 0 auto;
+    background:white;
+}
+
+footer {
+    background-color: #666666;
+    margin-top: 250px;
+    padding: 10px 0px 4px 0px;
+    text-align: center;
+    width: 100%;
+    font-size:0.66666em;
+    color: darkgrey;
+    bottom: 0;
+    border-top-color: #4aaaa5;
+    border-top-width: 4px;
+    border-top-style: solid;
+}
+
+/*text input field formatting; line fields first, then text area field*/
+input[type=text], select {
+    width: 100%;
+    padding: 1% 1.2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 1%;
+    border-color: #DBDBDB;
+}
+
+/*submit button formatting*/
+input[type=submit] {
+    width: 15%;
+    background-color:#4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 1.45%;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+a:not(:last-child) {
+            border-right: 1px solid #DBDBDB;
+        }
+    
+    #about {
+        padding: 0px 12px 0px 0px;
+        margin: 20px 0px 0px 12px;
+    }
+
+    #portfolio {
+        padding: 0px 12px 0px 0px;
+        margin: 20px 0px 0px 12px;
+    }
+
+    #contact {
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 12px
+    }
